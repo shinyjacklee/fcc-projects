@@ -15,4 +15,4 @@ Contents:
 
 
 PS:
-**<s>Completed</s> project is stroked through **, and the rest are working on with
+**<s>Completed</s> project is stroked through**, and the rest are working on with
