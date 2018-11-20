@@ -1,0 +1,24 @@
+#main{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background-color:#ccc7;
+}
+#img-div{
+  display:flex;
+  flex-direction:column;
+ justify-content:center;
+  align-items:center;
+  width:100%;
+  background-color:white;
+}
+
+#image{
+  max-width:100%;
+  height:auto;
+    
+}
+#tribute-info{
+  max-width:40%;
+}
