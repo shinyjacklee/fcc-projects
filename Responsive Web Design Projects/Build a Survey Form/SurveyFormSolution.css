@@ -1,0 +1,25 @@
+body {
+  background-color: #9fd1cb;
+}
+
+.form {
+  max-width: 50%;
+  margin: 40px;
+  padding: 60px;
+  background-color: #f9f9f9;
+}
+.item-div {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+label {
+  margin-right: 15px;
+}
+
+#textarea{
+
+  padding:10px;
+  margin:10px;
+  
+}

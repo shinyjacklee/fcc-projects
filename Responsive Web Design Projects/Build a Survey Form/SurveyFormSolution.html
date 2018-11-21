@@ -1,0 +1,87 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<link href="./SurveyFormSolution.css" rel="stylesheet" style="text/css"/>
+<body>
+  <center>
+    <div class="head">
+      <h1 id="title">Survey Form</h1>
+    </div>
+    <div class="form">
+      <p id="description">Let us know how we can improve freeCodeCamp</p>
+      <form id="survey-form">
+
+        <div class="item-div">
+          <label id="name-label">* Name:</label>
+          <input id="name" type="input" placeholder="Enter your name" required></input>
+        </div>
+
+        <div class="item-div">
+          <label id="email-label">* Email:</label>
+          <input id="email" type="email" placeholder="Enter your email" required></input>
+        </div>
+
+        <div class="item-div">
+          <label id="number-label">* Age:</label>
+          <input id="number" type="number" min="1" max="100" placeholder="Age"></input>
+        </div>
+
+        <div class="item-div">
+          <label id="dropdown-label">Which option best describes your current role?</label>
+          <select id="dropdown">
+           <option value="student">Student</option>
+           <option value="Full Time Job">Full Time Job</option>
+           <option value="Full Time Job">Full Time Job</option>
+           <option value="Other">Other</option>
+     </select>
+        </div>
+
+        <div class="item-div">
+          <label id="radio-label">How likely is that you would recommend freeCodeCamp to a friend?</label>
+          <div>
+            <input type="radio" id="huey" name="drone" value="huey" checked>
+            <label for="huey">Huey</label>
+          </div>
+
+          <div>
+            <input type="radio" id="dewey" name="drone" value="dewey">
+            <label for="dewey">Dewey</label>
+          </div>
+
+          <div>
+            <input type="radio" id="louie" name="drone" value="louie">
+            <label for="louie">Louie</label>
+          </div>
+
+        </div>
+
+        <div>
+          <label>Things that should be improved in the future
+(Check all that apply):</label>
+          <div>
+            <input type="checkbox" id="a" value="things">Front-end Projects</input>
+          </div>
+          <div>
+            <input type="checkbox" id="b" value="things">Back-end Projects</input>
+          </div>
+          <div>
+            <input type="checkbox" id="c" value="things">Data Visualization</input>
+          </div>
+          <div>
+            <input type="checkbox" id="d" value="things">Challenges</input>
+
+          </div>
+
+        </div>
+
+<div class="item-div">
+  <p>Any Comments or Suggestions?</p>
+  <textarea id="textarea"  type="textarea"   rows="10" cols="50" placeholder="Enter suggestion..."></textarea>
+  
+</div>
+
+<div class="item-div"> 
+  <button id="submit">Submit</button>
+</div>
+      </form>
+    </div>
+  </center>
+</body>
